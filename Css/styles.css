@@ -1,10 +1,20 @@
-div {
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}div {
     background-color: #F6F6C9;
 }
 
+.csloud {
+    position: relative;
+    text-align: center;
+    align-items: center;
+}
 .top-container {
-    background-color: #dff4fc;
-    ;
+    background-color: #e4f9f5;
+    position: relative;
+    padding-top: 100px;
 }
 
 .middle-container {
@@ -19,16 +29,27 @@ div {
     background-color: #153462;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-}
+
 
 h1 {
-    margin-top: 0;
+    margin: 0 auto;
     padding: 0;
+    
 }
 
 .pro {
-    text-decoration: unset;
+    text-decoration: underline;
+}
+
+.top-cloud{
+    position: absolute;
+    top: 50px;
+    right: 200px;
+    
+
+}
+.bottom-cloud{
+    position: absolute;
+    left: 200px;
+    bottom: 300px;
 }
